@@ -82,7 +82,6 @@ Following the steps above will create the summary of the code coverage. If you w
 │   │    │   ├─── VaultManager.sol : Can liquidate a vault, pay interest, changes protocol settings
 │   │    │   ├─── VaultDeployer.sol : Will mint and deploy new Vaults
 │   │    │   ├─── Vault.sol : User's vault, can deposit/withdraw collateral, claim protocol rewards, borrow sUSD
-│   │    │   ├─── CappedCollateralToken.sol : A wrapper for an underlying asset that can be listed as collateral on the protocol
 │   │    │   ├─── USDA.sol : ERC20, given by the protocol 1:1 ratio when a lender deposits sUSD
 │   │    │   └─── WUSDA.sol : Warped version of USDA to interact with other DeFi protocols
 │   │    ├─── periphery/: All periphery contracts
